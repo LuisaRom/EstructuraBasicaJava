@@ -46,6 +46,22 @@ public class Main {
         boolean estado= true;
         System.out.println("VARIABLE DE TIPO BOOLEAN" + estado);
 
+        //CONDICIONALES IF/ELSE
+
+        double peso=60;
+        double estatura=1.70;
+        double IMC;
+
+        IMC= peso /(estatura*estatura);
+        System.out.println("El IMC ES:" + IMC);
+
+
+        if(IMC < 20.761){
+            System.out.println("PESO BAJO");
+        }else if (IMC >20.761 && IMC < 24.99){
+            System.out.println("PESO NORMAL");
+}
+
 
 
 
